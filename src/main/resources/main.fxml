@@ -13,6 +13,19 @@
   prefHeight="400.0" prefWidth="600.0">
 
   <center>
-    <Text>Hello, World!</Text>
+    <Text fx:id="counter" text="0"/>
   </center>
+
+  <left>
+    <Button text="Decrement" onAction="#decrementCounter"/>
+  </left>
+
+  <right>
+    <Button text="Increment" onAction="#incrementCounter"/>
+  </right>
+
+  <bottom>
+    <Button text ="Reset" onAction="#resetCounter"/>
+  </bottom>
+
 </BorderPane>
